@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Star Wars RPG</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script src="assets/js/game.js"></script>
+
+
+</head>
+<body>
+  
+<div class="container">
+  
+
+  <div class="row">
+    <div class="col-md-12">
+    <h1>Star Wars RPG</h1>
+    </div>
+</div>
+  
+  <div class="row">
+    <div class="col-md-4">
+
+    <p id="instruction">Choose Your Character.....</p>
+    </div>
+
+    <div class="col-md-4">
+    <button type="button" class="btn btn-danger" id="attack">Attack</button>
+
+    </div>
+
+    <div class="col-md-4">
+    <button type="button" class="btn btn-primary" id="play_again">Play Again</button>
+
+    </div>
+  </div>
+  
+  <div class="row">
+      
+        <div class="col-xs-3 character" id="vader" >
+          <div>
+            <img class="card-img-top" src="assets/img/vader.jpg" alt="" >
+            <p class="text-center" id="vader_health">100</p>
+          </div>
+        </div>
+
+        <div class="col-xs-3 character" id="fett" >
+          <div>
+            <img class="card-img-top" src="assets/img/fett.jpg" alt="" >
+            <p class="text-center" id="fett_health">100</p>
+          </div>
+        </div>
+
+        <div class="col-xs-3 character" id="skywalker" >
+          <div>
+            <img class="card-img-top" src="assets/img/skywalker.jpg" alt="" >
+           <p class="text-center" id="skywalker_health">100</p>
+          </div>
+        </div>
+        
+        <div class="col-xs-3 character" id="kenobi" >
+          <div>
+            <img class="card-img-top" src="assets/img/kenobi.jpg" alt="" >
+            <p class="text-center" id="kenobi_health">100</p>
+          </div>
+        </div>
+  </div>
+ 
+  <div class="row spacer_top">
+          <div class="span1"></div>
+            
+ 
+  </div>
+   <div class="row">
+        <div class="col-xs-3 spacer_left_char">
+
+              <div class="span1"></div>        
+
+          </div>
+        
+          <div class="col-xs-3" id="character_target">
+          </div>
+          
+          <div class="col-xs-3 spacer_left_opp" id="opp_target">
+
+            <div class="span1"></div>        
+
+          
+          </div>
+          
+
+          <div class="col-xs-3 ">
+          </div>
+  </div>
+
+<div class="row">
+        <div class="col-xs-3 ">
+        </div>
+        
+          <div class="col-xs-1 " id="vanquished_character0">
+          </div>
+          <div class="col-xs-1" id="vanquished_character1">
+          </div>
+          <div class="col-xs-1" id="vanquished_character2">
+          </div>
+          
+          <div class="col-xs-3">
+          </div>
+  </div>
+</div>
+
+</body>
+</html>

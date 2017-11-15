@@ -1,0 +1,42 @@
+body {
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+
+.spacer_top {
+    margin-top: 10%; /* define margin as you see fit */
+}
+
+
+.spacer_left_char {
+    margin-left: 20%; /* define margin as you see fit */
+}
+
+.spacer_left_opp {
+    margin-left: 43%; /* define margin as you see fit */
+}
+
+
+#vanquished_character0 {
+    margin-top: 5%;
+     margin-left: 30%; 
+ /* define margin as you see fit */
+}
+
+
+#vanquished_character1 {
+    margin-top: 5%;
+     margin-left: 8%; 
+ /* define margin as you see fit */
+}
+
+#vanquished_character2 {
+    margin-top: 5%;
+     margin-left: 8%; 
+ /* define margin as you see fit */
+}
